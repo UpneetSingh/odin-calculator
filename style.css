@@ -1,0 +1,93 @@
+.container{
+    margin-top: 200px;
+    margin-bottom: 100px;
+    margin-left:750px ;
+    margin-right: 820px;
+    background-color: wheat;
+    border: 2px solid black;
+    border-radius: 5%;
+    background-color: #E4FDE1; /* Light green */
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-right: 70px;
+    margin-bottom: -50px;
+    font-size: 80px;
+}
+body{
+
+    background-color: #0F3057; /* Dark blue */
+}
+
+
+.calculator{
+    padding: 10px;
+    margin-left:20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.button {
+    width: 62px;
+    height: 60px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+}
+
+.button:hover {
+    background-color: darkred;
+    color: lightgray;
+}
+
+.display{
+    border: 2px solid black;
+    margin-right: 2px;
+    margin-bottom : 10px;
+    padding: 10px;
+    background-color: white;
+    min-height: 30px;
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    color: black;
+    border: 2px solid darkgray;
+    transition: border-color 0.3s ease;
+}
+
+.display:hover {
+    border-color: gray;
+}
+.clear {
+    width: 128px;
+    margin-bottom: 2px;
+}
+
+.plus {
+    height: 120px;
+}
+
+.column1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 4px;
+}
+
+.bigflex{
+    display: flex;
+}
+
+.tpadder{
+    margin-top :-240px;
+}
+
+.operator{
+    margin: bottom 0.5px;
+}
