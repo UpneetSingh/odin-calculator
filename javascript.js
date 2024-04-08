@@ -114,11 +114,6 @@ document.addEventListener('DOMContentLoaded', function () {
                 // If the button is the equal button
                 handleEqual(); // Call function to perform calculation
             } else if(buttonValue === '<'){
-                let lastIndex = displayValue.length - 1;
-                if (lastIndex === '+' || lastIndex === '-'){
-                    displayValue = displayValue.slice(0,-3);
-                    updateDisplay();
-                }
                 displayValue = displayValue.slice(0,-1);
                 updateDisplay();    
             } 
